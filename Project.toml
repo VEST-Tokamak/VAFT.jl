@@ -1,0 +1,20 @@
+name = "VAFT"
+uuid = "9d730332-9a27-4115-a702-ec2dfeb5f450"
+authors = ["Yun <peppertonic18@snu.ac.kr>"]
+version = "0.1.0"
+
+[deps]
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+IMASdd = "c5a45a97-b3f9-491c-b9a7-aa88c3bc0067"
+
+[compat]
+HDF5 = "0.17"
+IMASdd = "8.5"
+Test = "1"
+julia = "1.11"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
