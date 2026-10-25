@@ -37,7 +37,8 @@ if !isempty(eq.time_slice)
 end
 ```
 
-A runnable version is in [examples/getting_started.jl](examples/getting_started.jl).
+A runnable version is in [examples/getting_started.jl](examples/getting_started.jl), and a
+step-by-step tutorial in [notebooks/getting_started.ipynb](notebooks/getting_started.ipynb).
 
 To write data, use IMASdd.jl directly, e.g. `VAFT.IMASdd.imas2h5i(dd, "out.h5")`.
 
@@ -73,6 +74,7 @@ Errors:
 
 ## Documentation
 
+- [Tutorial notebook](notebooks/getting_started.ipynb)
 - [Architecture](docs/architecture.md)
 - [Installation](docs/installation.md)
 - [Interoperability with Python VAFT](docs/interoperability.md)
